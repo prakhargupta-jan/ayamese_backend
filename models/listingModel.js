@@ -29,7 +29,7 @@ const listingSchema = new Schema({
         default: 0,
         min: [0, 'Experience cannot be negative'],
     },
-    contancts: {
+    contacts: {
         type: [String]
     },
     isShortlisted: {

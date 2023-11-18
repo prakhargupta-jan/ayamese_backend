@@ -4,7 +4,7 @@ import catchAsync from "../utils/catchAsync.js";
 export const getAllListings = catchAsync(async (req, res, next) => {
     const data = await Listing.find();
     res.status(200).json({
-        status: '200',
+        status: 'success',
         length: data.length,
         data
     });
