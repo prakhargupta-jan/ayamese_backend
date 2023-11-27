@@ -10,7 +10,7 @@ This is the backend for the exmpty cup assignment. It's built with Node.js, Expr
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+These instructions will get you a copy of the project up and running on your local machine for development, testing purposes and production build.
 
 ### Prerequisites
 
@@ -18,37 +18,16 @@ These instructions will get you a copy of the project up and running on your loc
 - Yarn
 - MongoDB
 
-### Installing
-
-1. Clone the repository:
-git clone https://github.com/yourusername/ayamese_backend.git
-
-
-2. Install dependencies:
-
-yarn install
-
-3. Create and Setup .env file in the root of the directory.
-
-    `touch .env`
+## Setting up
+- Clone github repo
     
-    Then MONGO_URI i.e. MongoDB instance containing user, password and Database name and a PORT in a seperate line like as follows.
-    ```
-    MONGO_URI={MongoDB URI}
-    PORT={Port number}
-    ```
+    `git clone https://github.com/prakhargupta-jan/ayamese_backend.git`
 
-4. Start the server:
+### To start development server, run: 
+    docker compose up
 
-    `yarn start`
-
-
-The server will start on `localhost:{PORT}`.
-
-## Running the tests
-
-Run the tests with the following command:
-    `yarn test`
+### To start deployment server.
+    docker compose -f './docker-compose.prod.yml up 
 
 
 ## API Endpoints
