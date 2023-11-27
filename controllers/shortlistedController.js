@@ -18,7 +18,7 @@ export const toggleShortlisted = catchAsync(async (req, res, next) => {
     listing.isShortlisted = !listing.isShortlisted;
     await listing.save();
     res.status(200).json({
-        satus: 'success',
+        status: 'success',
         data: listing
     })
 })

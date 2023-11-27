@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: prod
+    restart: always
+    ports:
+      - 80:3000
