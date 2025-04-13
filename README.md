@@ -11,7 +11,7 @@ This is the backend for the exmpty cup assignment. It's built with Node.js, Expr
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development, testing purposes and production build.
-- https://github.com/prakhargupta-jan/ayamese
+- Front-end : https://github.com/prakhargupta-jan/ayamese
 
 ### Prerequisites
 
